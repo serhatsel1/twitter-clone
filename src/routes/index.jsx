@@ -1,15 +1,18 @@
 // routes.js
 import { Route, Routes as ReactRoutes } from "react-router-dom";
-
-const Anasayfa = () => <div>Anasayfa</div>;
-const ExploreComponent = () => <div>Explore Componenti</div>;
-const NotificationsComponent = () => <div>Bildirimler Componenti</div>;
+import Home from "../pages/home";
+import Explore from "../pages/explore";
+import Notifications from "../pages/notifications";
+import Error404 from "../pages/errorpage/error404";
 
 const Routes = () => (
+  
   <ReactRoutes>
-    <Route path="/" element={<Anasayfa />} />
-    <Route path="/explore" element={<ExploreComponent />} />
-    <Route path="/notifications" element={<NotificationsComponent />} />
+    <Route path="/" element={<Home />} />
+    <Route path="/explore" element={<Explore />} />
+    <Route path="/notifications" element={<Notifications />} />
+
+    <Route path="*" element={<Error404 />} />
   </ReactRoutes>
 );
 

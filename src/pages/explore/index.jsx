@@ -1,8 +1,8 @@
 
-const Home = () => {
+const Explore = () => {
   return (
-    <div>Home</div>
+    <div className="bg-red-300">Explore</div>
   )
 }
 
-export default Home
+export default Explore
