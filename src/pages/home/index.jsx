@@ -1,10 +1,11 @@
+import PropTypes from "prop-types";
 
 const Home = () => {
-  return (
-    <h1 className="text-3xl font-bold underline bg-red-800">
-      Hello world!
-    </h1>
-  )
-}
+  return <h1 className="text-3xl font-bold">Home Page</h1>;
+};
 
-export default Home
+export default Home;
+
+Home.propTypes = {
+  children: PropTypes.node,
+};

@@ -1,7 +1,7 @@
 
 const Explore = () => {
   return (
-    <div className="bg-red-300">Explore</div>
+    <div className="">Explore</div>
   )
 }
 
