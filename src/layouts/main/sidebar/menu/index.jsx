@@ -1,7 +1,6 @@
 import { NavLink } from "react-router-dom";
 import classNames from "classnames";
 import mainMenu from "../../../../utils/consts";
-import Button from "../../../../components/button";
 import More from "./more/more";
 import New from "./new/new";
 const Menu = () => {
