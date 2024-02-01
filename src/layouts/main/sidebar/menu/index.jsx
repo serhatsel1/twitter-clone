@@ -4,7 +4,7 @@ import mainMenu from "../../../../utils/consts";
 import More from "./more/more";
 import New from "./new/new";
 const Menu = () => {
-  console.log(mainMenu);
+  // console.log(mainMenu);
   return (
     <nav className="mt-0.5 mb-1">
       {mainMenu.map((menu, index) => (
